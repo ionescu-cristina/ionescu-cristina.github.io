@@ -1,9 +1,15 @@
 body{
   height: 100%;
 } 
-a, p {
-
-}
 a {
  text-decoration: none !important;
+}
+a:href {
+  color: #e6d8d8;
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+    margin-bottom: 10px;
+  }
 }
