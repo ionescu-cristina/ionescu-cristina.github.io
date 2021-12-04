@@ -307,27 +307,27 @@
                                 <div class="row">
                                     <div class="form-floating mb-3 col-md-6">
                                         <input type="text" class="form-control text-white-50 bg-dark"
-                                            id="floatingInput1" placeholder="Name">
-                                        <label for="floatingInput" class="ps-4">Name</label>
+                                            id="name" placeholder="Name" name="name" required>
+                                        <label for="name" class="ps-4">Name</label>
                                     </div>
                                     <div class="form-floating mb-3 col-md-6">
                                         <input type="email" class="form-control  text-white-50 bg-dark"
-                                            id="floatingInput" placeholder="name@example.com">
-                                        <label for="floatingInput" class="ps-4">Email address</label>
+                                            id="email" placeholder="name@example.com" name="email" required>
+                                        <label for="email" class="ps-4">Email address</label>
                                     </div>
                                 </div>
 
                                 <div class="form-floating mb-3">
-                                    <input type="text" class="form-control  text-white-50 bg-dark" id="floatingInput"
-                                        placeholder="Subject">
-                                    <label for="floatingInput" class="ps-4">Subject</label>
+                                    <input type="text" class="form-control  text-white-50 bg-dark" id="subject"
+                                        placeholder="Subject" name="subject" required>
+                                    <label for="subject" class="ps-4">Subject</label>
                                 </div>
                                 <div class="form-floating mb-3">
                                     <textarea class="form-control  text-white-50 bg-dark"
-                                        placeholder="Leave your message here" id="floatingTextarea"></textarea>
-                                    <label for="floatingTextarea" class="ps-4">Message</label>
+                                        placeholder="Leave your message here" id="message" name="message" required></textarea>
+                                    <label for="message" class="ps-4">Message</label>
                                 </div>
-                                <button type="submit" class="btn btn-success rounded-pill px-5">Send
+                                <button type="submit" class="btn btn-success rounded-pill px-5" name="submit">Send
                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                         class="bi bi-send" viewBox="0 0 16 16">
                                         <path
@@ -335,7 +335,7 @@
                                     </svg>
                                 </button>
                             </form>
-
+                            <div id="send"></div>
                         </div>
                     </div>
                 </div>

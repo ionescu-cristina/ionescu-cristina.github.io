@@ -1,9 +1,8 @@
-body{
+body {
   height: 100%;
-  font-size: 100%;
-} 
+}
 a {
- text-decoration: none !important;
+  text-decoration: none !important;
 }
 a:href {
   color: #e6d8d8;
@@ -12,17 +11,31 @@ p {
   text-align: justify;
 }
 
-@media only screen and (max-width: 768px) {
-  [class*="col-"] {
-    margin-bottom: 10px;
-  }
-  body {
-    font-size: 1.4rem;
-  }
+@media (min-width: 544px) {
   h1 {
-    font-size: 2.4rem;
+    font-size: 1.5rem;
   }
-  h3 {
+}
+
+@media (min-width: 768px) {
+  h1 {
     font-size: 2rem;
+  }
+  a {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 3rem;
   }
 }
